@@ -13,4 +13,4 @@
 ![alt text](/images/collection_created.jpg?raw=true)
 
 
-### 4. Create a repop called "mongodb-basics" on github and push your completed task there
+### 4. Create a repo called "mongodb-basics" on github and push your completed task there
