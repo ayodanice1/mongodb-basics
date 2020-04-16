@@ -10,5 +10,5 @@
 
 ### 3. Update operation
 
-![alt text](/images/afterUpdatingCollection?raw=true)
+![alt text](/images/afterUpdatingCollection.png?raw=true)
 ![alt text](/images/updatingCollection.png?raw=true)
