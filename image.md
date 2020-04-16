@@ -1,16 +1,14 @@
-# NodeJS Task 2: Connect to a database
+# NodeJS Task 3: CRUD basics
 
-### 1. Download and Install MongoDB server
+### 1. Create and populate collections myMovies
 
-![alt text](/images/mongodb_installed.jpg?raw=true)
+![alt text](/images/documentInsertion.png?raw=true)
 
-### 2. Write a script to connect to your database
+### 2. Find operation
 
-![alt text](/images/db_created.jpg?raw=true)
+![alt text](/images/findOperation.png?raw=true)
 
-### 3. Create a collection
+### 3. Update operation
 
-![alt text](/images/collection_created.jpg?raw=true)
-
-
-### 4. Create a repop called "mongodb-basics" on github and push your completed task there
+![alt text](/images/afterUpdatingCollection?raw=true)
+![alt text](/images/updatingCollection.png?raw=true)

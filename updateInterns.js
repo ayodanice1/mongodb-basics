@@ -8,13 +8,11 @@ const dbName = 'ayodele_db';
 
 const updateMovie = function(db, callback) {
   const collection = db.collection('myMovies');
-  collection.updateOne({movie: Brightburn, year: "2020", rating: 6.5 }, 
-    {$set: {movie: "The Banker"}}, function(err, result){
+  collection.updateOne({movie: "The Banker"},
+    {$set: {movie: 'Brightburn', year: "2020", rating: 6.5 }}, function(err, result){
       assert.equal(err, null);
-      assert.equal(1, result.result.n);
-      console.log("Updated the collection by replacing"+
-       "movie: The Banker, year: 2020, rating: 8 }"+
-      " with {movie: Brightburn, year: 2020, rating: 6.5 }");
+      //assert.equal(1, result.result.n);
+      console.log(result);
       callback(result);
     });
 }
